@@ -34,7 +34,7 @@ app.jpegExportPreferences.properties = {
    	simulateOverprint : true,
    	jpegExportRange : ExportRangeOrAllPages.EXPORT_ALL };
 
-var savePngFile = File( currentDir().fullName + '/result.jpg' );
-doc.exportFile(ExportFormat.PNG_FORMAT, savePngFile);
+var saveJpgFile = File( currentDir().fullName + '/result.jpg' );
+doc.exportFile(ExportFormat.PNG_FORMAT, saveJpgFile);
 
 doc.close(SaveOptions.no);
