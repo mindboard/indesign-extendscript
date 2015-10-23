@@ -25,5 +25,5 @@ var textFrame = page.textFrames.add({
 for( var i=0; i<textFrame.paragraphs.length; i++ ){
 	var paragraph = textFrame.paragraphs[i];
 	paragraph.pointSize = 36;
-   	paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Kozuka Gothic Pro');
+   	paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Myriad Hebrew');
 }

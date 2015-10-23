@@ -6,9 +6,16 @@ All scripts are tested by InDesign CC 2015.
 
 ## How to run
 
-Use [ESTK](http://www.adobe.com/jp/devnet/scripting/estk.html).
+Use [ESTK](https://www.adobe.com/products/extendscript-toolkit.html).
 
 Just open script file in ESTK (.js) and run it.
+
+
+## Script Introduction
+
+- ./00 ... utility scripts
+- ./01 ... hello world
+- ./02 ... export document as something
 
 
 ## LICENSE
