@@ -1,4 +1,3 @@
-#target InDesign-11 
 
 var params = {};
 params.documentPreferences = {
