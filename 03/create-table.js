@@ -26,12 +26,6 @@ var createTextFrame = function(page,params){
 			params.right+"mm"] });
 };
 
-
-
-var currentDir = function(){
-	return File($.fileName).parent;
-};
-
 var pageParams = {
 	pageWidth   : 297,
 	pageHeight  : 210,
