@@ -17,6 +17,7 @@ Just open script file in ESTK (.js) and run it.
 - ./01 ... hello world
 - ./02 ... export document as something
 - ./03 ... table
+- ./04 ... image
 
 
 ## LICENSE
