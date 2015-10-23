@@ -1,7 +1,7 @@
 
 # InDesign Extendscript Examples
 
-All scripts are tested by InDesign CC 2015.
+All scripts are tested in InDesign CC 2015.
 
 
 ## How to run
@@ -20,5 +20,6 @@ Just open script file in ESTK (.js) and run it.
 
 ## LICENSE
 
-MIT. See details in LICENSE file.
+MIT LICENSE.
+See details in LICENSE file.
 
