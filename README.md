@@ -8,7 +8,7 @@ All scripts are tested in InDesign CC 2015 on Mac OS X.
 
 Use [ESTK](https://www.adobe.com/products/extendscript-toolkit.html).
 
-Just open script file in ESTK (.js) and run it.
+Just open script file (.js) in ESTK and run it.
 
 
 ## Script Introduction
