@@ -19,6 +19,7 @@ Just open script file (.js) in ESTK and run it.
 - ./03 ... table
 - ./04 ... image
 - ./05 ... file and directory 
+- ./06 ... json
 
 
 ## LICENSE
