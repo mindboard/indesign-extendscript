@@ -18,6 +18,7 @@ Just open script file (.js) in ESTK and run it.
 - ./02 ... export document as something
 - ./03 ... table
 - ./04 ... image
+- ./05 ... file and directory 
 
 
 ## LICENSE
