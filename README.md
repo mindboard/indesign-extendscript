@@ -22,6 +22,7 @@ Just open script file (.js) in ESTK and run it.
 - ./06 ... json
 - ./07 ... DOM
 - ./08 ... graphics
+- ./09 ... paragraph style
 
 
 ## LICENSE
