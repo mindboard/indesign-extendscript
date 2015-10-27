@@ -21,6 +21,7 @@ Just open script file (.js) in ESTK and run it.
 - ./05 ... file and directory 
 - ./06 ... json
 - ./07 ... DOM
+- ./08 ... graphics
 
 
 ## LICENSE
