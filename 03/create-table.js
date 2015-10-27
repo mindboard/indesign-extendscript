@@ -1,8 +1,8 @@
 
 var createDocument = function(params){
 	params.documentPreferences = {
-		pageWidth : params.pageWidth+"mm",
-		pageHeight: params.pageHeight+"mm",
+		pageWidth : params.width+"mm",
+		pageHeight: params.height+"mm",
 	   	facingPages:false};
 
 	var doc = app.documents.add(params);
@@ -27,8 +27,8 @@ var createTextFrame = function(page,params){
 };
 
 var pageParams = {
-	pageWidth   : 297,
-	pageHeight  : 210,
+	width   : 297,
+	height  : 210,
 	marginTop   : 10,
 	marginLeft  : 10,
 	marginBottom: 10,
@@ -41,8 +41,8 @@ var page = doc.pages.item(0);
 var textFrameParams = {
 	top    : pageParams.marginTop,
 	left   : pageParams.marginLeft,
-	bottom : (pageParams.pageHeight - pageParams.marginBottom),
-	right  : (pageParams.pageWidth  - pageParams.marginRight) };
+	bottom : (pageParams.height - pageParams.marginBottom),
+	right  : (pageParams.width  - pageParams.marginRight) };
 
 var textFrame = createTextFrame(page, textFrameParams);
 
