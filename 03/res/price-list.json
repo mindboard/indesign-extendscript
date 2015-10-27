@@ -1,0 +1,26 @@
+{"priceList": [
+    {
+    "name": "MacBook",
+    "price": "148,800"
+  },
+    {
+    "name": "MacBook Air 11 inch",
+    "price": "102,800"
+  },
+    {
+    "name": "MacBook Air 13 inch",
+    "price": "112,800"
+  },
+    {
+    "name": "MacBook Pro 11 inch",
+    "price": "148,800"
+  },
+    {
+    "name": "MacBook Pro 13 inch",
+    "price": "224,800"
+  },
+    {
+    "name": "iMac",
+    "price": "126,800"
+  }
+]}
