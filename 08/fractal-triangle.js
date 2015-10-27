@@ -48,7 +48,7 @@ var drawLines = function( page, pointList ){
 };
 
 //
-// startPoint を頂点とした lengthOfSize の辺の長さの正三角形を描きます.
+// startPoint を頂点とした 底辺が lengthOfSize の長さの三角形を描きます.
 //
 var drawTriangle = function( page, counter, startPoint, lengthOfSide ){
 	var bottomLeftPoint  = createPoint( startPoint.x - lengthOfSide/2, startPoint.y+lengthOfSide );
