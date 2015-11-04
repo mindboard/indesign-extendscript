@@ -20,7 +20,7 @@ Just open script file (.js) in ESTK and run it.
 - ./04 ... image
 - ./05 ... file and directory 
 - ./06 ... json
-- ./07 ... DOM
+- ./07 ... DOM / parse document
 - ./08 ... graphics
 - ./09 ... paragraph style
 
