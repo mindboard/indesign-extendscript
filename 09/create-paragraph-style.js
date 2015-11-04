@@ -1,16 +1,16 @@
 //
-// 段落スタイルを作成して、段落に適用する
+// add new paragraph style and apply it to paragraph.
 //
 
 var createParagraphStyle = function( doc, params ){
 	var paragraphStyle1 = doc.paragraphStyles.item( params.name );
 
 	try {
-		// 'my-paragraph-style1' の段落スタイルが既に存在しているか確認
+		// check 'my-paragraph-style1' already exists or not.
 		paragraphStyle1.name;
 	}
 	catch( error ){
-		// まだ存在していない場合は追加する.
+		// when error , it does not exist yet. add it.
 		paragraphStyle1 = doc.paragraphStyles.add(params);
 	}
 
