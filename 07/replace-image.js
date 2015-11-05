@@ -68,7 +68,7 @@ textFrame.place( File( currentDir().fullName + '/links/tiger-color.pdf' ) );
 textFrame.fit(FitOptions.CONTENT_TO_FRAME);
 
 
-// step3 : find tiger-color.pdf pdf and replace it with tiger-grayscale.pdf
+// step3 : find tiger-color.pdf and replace it with tiger-grayscale.pdf
 
 eachPage( doc, function(page){
 	eachPageItem(page,function(pageItem){
