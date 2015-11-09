@@ -1,4 +1,3 @@
-
 var params = {};
 params.documentPreferences = {
 	pageWidth   : '100mm',
@@ -25,4 +24,3 @@ graphicLine.strokeWeight = '0.25mm';
 var path = graphicLine.paths[0];
 path.pathPoints[0].anchor = ['90mm','10mm']; // x,y
 path.pathPoints[1].anchor = ['10mm','90mm']; // x,y
-
