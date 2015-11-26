@@ -48,7 +48,9 @@ var drawLines = function( page, pointList ){
 };
 
 //
-// startPoint を頂点とした 底辺が lengthOfSize の長さの三角形を描きます.
+// startPoint を起点として 40度開いた二つの直線を引く.
+// r ... 直線の長さ
+// degree0 ... 2本引く線のうちの左側の線の角度
 //
 var drawTwoLines = function( page, counter, r, startPoint, degree0 ){
 
@@ -75,7 +77,7 @@ var drawTwoLines = function( page, counter, r, startPoint, degree0 ){
 
 
 // ---------------------------- 
-// fractal triangle 
+// fractal ginkgo leaf 
 // ---------------------------- 
 
 var pageParams = {
