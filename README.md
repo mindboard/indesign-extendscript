@@ -23,6 +23,7 @@ Just open script file (.js) in ESTK and run it.
 - ./07 ... DOM / parse document
 - ./08 ... graphics
 - ./09 ... paragraph style
+- ./10 ... layer
 
 
 ## LICENSE
