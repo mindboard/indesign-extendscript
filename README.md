@@ -25,6 +25,7 @@ Just open script file (.js) in ESTK and run it.
 - ./09 ... paragraph style
 - ./10 ... layer
 - ./11 ... link
+- ./12 ... textframe
 
 
 ## LICENSE
