@@ -77,9 +77,3 @@ var insertionPoint = textFrame.insertionPoints[13];
 var inlineTextFrame = createTextFrameWithCornerRound(insertionPoint,{top:0,left:0,bottom:48,right:48});
 inlineTextFrame.strokeWeight = 0.25;
 inlineTextFrame.contents = 'I am an inline textframe.';
-
-/*
-inlineTextFrame.contentType = ContentType.graphicType;
-inlineTextFrame.place( File( currentDir().fullName + '/links/tiger.eps' ) );
-inlineTextFrame.fit(FitOptions.CONTENT_TO_FRAME);
-*/
