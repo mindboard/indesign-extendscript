@@ -1,4 +1,3 @@
-
 var eachPage = function(doc,func){ for(var i=0; i<doc.pages.length; i++){ func(doc.pages.item(i)); } };
 var eachPageItem = function(page,func){ for(var i=0; i<page.allPageItems.length; i++){ func(page.allPageItems[i]); } };
 
@@ -22,6 +21,10 @@ var findLayer = function(doc,layerName){
 };
 
 
+// ----
+// main
+// ----
+
 var doc = createDocument();
 
 // 1) create 'myLayer' layer
@@ -39,5 +42,3 @@ eachPage( doc, function(page){
         pageItem.itemLayer = myLayer;
     });
 } );
-
-//doc.close(SaveOptions.no);

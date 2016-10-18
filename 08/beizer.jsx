@@ -1,8 +1,8 @@
 var params = {};
 params.documentPreferences = {
-	pageWidth   : 100,
-	pageHeight  : 100,
-	facingPages : false};
+    pageWidth   : 100,
+    pageHeight  : 100,
+    facingPages : false};
 
 // add document
 var doc = app.documents.add(params);
@@ -30,6 +30,6 @@ entirePath.push( [pointA, pointB, pointC] );
 entirePath.push( [pointD, pointE, pointF] );
 
 polygon.paths[0].properties = {
-	entirePath: entirePath,
-   	pathType:	PathType.OPEN_PATH
+    entirePath: entirePath,
+       pathType:    PathType.OPEN_PATH
 };

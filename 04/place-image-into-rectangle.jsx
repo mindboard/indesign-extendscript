@@ -1,4 +1,3 @@
-
 var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",
@@ -30,6 +29,10 @@ var currentDir = function(){
     return File($.fileName).parent;
 };
 
+
+// ----
+// main
+// ----
 
 var pageParams = {
     pageWidth   : 100,

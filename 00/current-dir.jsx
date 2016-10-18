@@ -1,7 +1,5 @@
-
 var currentDir = function(){
-	return File($.fileName).parent;
+    return File($.fileName).parent;
 };
 
 $.writeln( currentDir().fullName );
-

@@ -1,24 +1,23 @@
-
 //var eachPage = function(doc,func){ for(var i=0; i<doc.pages.length; i++){ func(doc.pages.item(i)); } };
 //var eachPageItem = function(page,func){ for(var i=0; i<page.allPageItems.length; i++){ func(page.allPageItems[i]); } };
 
 var createDocument = function(params){
-	params.documentPreferences = {
-		pageWidth   : params.pageWidth+"mm",
-		pageHeight  : params.pageHeight+"mm",
-	   	facingPages : false};
+    params.documentPreferences = {
+        pageWidth   : params.pageWidth+"mm",
+        pageHeight  : params.pageHeight+"mm",
+           facingPages : false};
 
-	var doc = app.documents.add(params);
-	//with(doc.gridPreferences){ documentGridShown=true; }
+    var doc = app.documents.add(params);
+    //with(doc.gridPreferences){ documentGridShown=true; }
 
-	var page = doc.pages.item(0);
-	page.marginPreferences.properties = {
-		top    : params.marginTop+"mm",
-		left   : params.marginLeft+"mm",
-		bottom : params.marginBottom+"mm",
-		right  : params.marginRight+"mm"};
+    var page = doc.pages.item(0);
+    page.marginPreferences.properties = {
+        top    : params.marginTop+"mm",
+        left   : params.marginLeft+"mm",
+        bottom : params.marginBottom+"mm",
+        right  : params.marginRight+"mm"};
 
-	return doc;
+    return doc;
 };
 
 var createTextFrame = function(parent,params){
@@ -48,6 +47,10 @@ var createTextFrameWithCornerRound = function(parent,params){
     return tf;
 };
 
+
+// ----
+// main
+// ----
 
 var pageParams = {
     pageWidth   : 297,

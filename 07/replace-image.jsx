@@ -3,30 +3,30 @@
 //
 
 var createDocument = function(params){
-	params.documentPreferences = {
-		pageWidth   : params.pageWidth+"mm",
-		pageHeight  : params.pageHeight+"mm",
-	   	facingPages : false};
+    params.documentPreferences = {
+        pageWidth   : params.pageWidth+"mm",
+        pageHeight  : params.pageHeight+"mm",
+           facingPages : false};
 
-	var doc = app.documents.add(params);
+    var doc = app.documents.add(params);
 
-	var page = doc.pages.item(0);
-	page.marginPreferences.properties = {
-		top    : params.marginTop+"mm",
-		left   : params.marginLeft+"mm",
-		bottom : params.marginBottom+"mm",
-		right  : params.marginRight+"mm"};
+    var page = doc.pages.item(0);
+    page.marginPreferences.properties = {
+        top    : params.marginTop+"mm",
+        left   : params.marginLeft+"mm",
+        bottom : params.marginBottom+"mm",
+        right  : params.marginRight+"mm"};
 
-	return doc;
+    return doc;
 };
 
 var createTextFrame = function(page,params){
-	return page.textFrames.add({
-		geometricBounds:[
-			params.top+"mm",
-			params.left+"mm",
-			params.bottom+"mm",
-			params.right+"mm"] });
+    return page.textFrames.add({
+        geometricBounds:[
+            params.top+"mm",
+            params.left+"mm",
+            params.bottom+"mm",
+            params.right+"mm"] });
 };
 
 var currentDir = function(){ return File($.fileName).parent; };
@@ -43,12 +43,12 @@ var eachPageItem = function(page,func){ for(var i=0; i<page.allPageItems.length;
 // step1 : prepare document and page
 
 var pageParams = {
-	pageWidth   : 100,
-	pageHeight  : 100,
-	marginTop   : 10,
-	marginLeft  : 10,
-	marginBottom: 10,
-	marginRight : 10};
+    pageWidth   : 100,
+    pageHeight  : 100,
+    marginTop   : 10,
+    marginLeft  : 10,
+    marginBottom: 10,
+    marginRight : 10};
 
 var doc = createDocument( pageParams );
 var page = doc.pages.item(0);
@@ -57,10 +57,10 @@ var page = doc.pages.item(0);
 // step2 : add tiger-color.pdf
 
 var textFrameParams = {
-	top    : pageParams.marginTop,
-	left   : pageParams.marginLeft,
-	bottom : (pageParams.pageHeight - pageParams.marginBottom),
-	right  : (pageParams.pageWidth  - pageParams.marginRight) };
+    top    : pageParams.marginTop,
+    left   : pageParams.marginLeft,
+    bottom : (pageParams.pageHeight - pageParams.marginBottom),
+    right  : (pageParams.pageWidth  - pageParams.marginRight) };
 
 var textFrame = createTextFrame(page, textFrameParams);
 textFrame.contentType = ContentType.graphicType;
@@ -71,17 +71,16 @@ textFrame.fit(FitOptions.CONTENT_TO_FRAME);
 // step3 : find tiger-color.pdf and replace it with tiger-grayscale.pdf
 
 eachPage( doc, function(page){
-	eachPageItem(page,function(pageItem){
-		var className = pageItem.constructor.name;
-		$.writeln( 'pageItem : ' + className );
+    eachPageItem(page,function(pageItem){
+        var className = pageItem.constructor.name;
+        $.writeln( 'pageItem : ' + className );
 
-		var regex = /PDF/;
-		if( className.match(regex) ){
-			var link = pageItem.itemLink;
-			if( link.filePath.match(/tiger-color/) ){
-				link.relink( File(currentDir().fullName + '/links/tiger-grayscale.pdf' ) );
-				link.update();
-			}
-		}
-	})});
-
+        var regex = /PDF/;
+        if( className.match(regex) ){
+            var link = pageItem.itemLink;
+            if( link.filePath.match(/tiger-color/) ){
+                link.relink( File(currentDir().fullName + '/links/tiger-grayscale.pdf' ) );
+                link.update();
+            }
+        }
+    })});

@@ -1,34 +1,37 @@
-
 var eachItem = function(myItemList,func){ for(var i=0; i<myItemList.length; i++){ func(myItemList[i]); } };
 
 var save = function( file,text ){
-	file.encoding = "UTF-8";
-	var handle = file.open("w");
-	if( handle ){
-		file.write(json);
-		file.close();
-	}
+    file.encoding = "UTF-8";
+    var handle = file.open("w");
+    if( handle ){
+        file.write(json);
+        file.close();
+    }
 };
 
 var read = function( file ){
-	file.encoding = "UTF-8";
-	var handle = file.open("r");
-	if( handle ){
-		var text = file.read();
-		file.close();
-		return text;
-	}
-	return '';
+    file.encoding = "UTF-8";
+    var handle = file.open("r");
+    if( handle ){
+        var text = file.read();
+        file.close();
+        return text;
+    }
+    return '';
 };
 
 var toJsonObject = function( jsonString ){
-	return eval('('+jsonString + ');' );
+    return eval('('+jsonString + ');' );
 };
 
 var currentDir = function(){
-	return File($.fileName).parent;
+    return File($.fileName).parent;
 };
 
+
+// ----
+// main
+// ----
 
 // 0)
 var json = '{"list":["a","b","c"]}';
@@ -44,6 +47,5 @@ var json2 = read( file );
 var jsonObject = toJsonObject( json2 );
 
 eachItem( jsonObject.list, function(item){
-	$.writeln( '- '+item );
+    $.writeln( '- '+item );
 } );
-

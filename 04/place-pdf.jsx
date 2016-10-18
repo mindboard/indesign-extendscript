@@ -1,4 +1,3 @@
-
 var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",
@@ -31,6 +30,10 @@ var currentDir = function(){
 };
 
 
+// ----
+// main
+// ----
+
 var pageParams = {
     pageWidth   : 100,
     pageHeight  : 100,
@@ -56,6 +59,5 @@ textFrame.contentType = ContentType.graphicType;
 app.pdfPlacePreferences.pageNumber = 2;
 textFrame.place( File( currentDir().fullName + '/links/tigers.pdf' ) );
 app.pdfPlacePreferences.pageNumber = 1; // 初期値?に戻しておく
-
 
 textFrame.fit(FitOptions.CONTENT_TO_FRAME);
