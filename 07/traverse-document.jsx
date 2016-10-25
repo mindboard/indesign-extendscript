@@ -20,7 +20,8 @@ eachPage( doc, function(page){
     $.writeln( 'page : '+page );
 
     eachPageItem(page,function(pageItem){
-        $.writeln( 'pageItem : ' + pageItem );
+        var className = pageItem.constructor.name;
+        $.writeln( 'pageItem : ' + className );
     });
 } );
 
