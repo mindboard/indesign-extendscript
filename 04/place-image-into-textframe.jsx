@@ -1,3 +1,6 @@
+//
+// place image into textframe.
+//
 var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",
@@ -25,6 +28,13 @@ var createTextFrame = function(page,params){
             params.right+"mm"] });
 };
 
+var createGraphicFrame = function(page,params){
+    var textFrame = createTextFrame(page, params);
+    textFrame.contentType = ContentType.graphicType;
+    return textFrame;
+};
+
+
 var currentDir = function(){
     return File($.fileName).parent;
 };
@@ -46,13 +56,13 @@ var doc = createDocument( pageParams );
 
 var page = doc.pages.item(0);
 
-var textFrameParams = {
+var graphicFrameParams = {
     top    : pageParams.marginTop,
     left   : pageParams.marginLeft,
     bottom : (pageParams.pageHeight - pageParams.marginBottom),
     right  : (pageParams.pageWidth  - pageParams.marginRight) };
 
-var textFrame = createTextFrame(page, textFrameParams);
-textFrame.contentType = ContentType.graphicType;
-textFrame.place( File( currentDir().fullName + '/links/tiger.eps' ) );
-textFrame.fit(FitOptions.CONTENT_TO_FRAME);
+var graphicFrame = createGraphicFrame(page, graphicFrameParams);
+graphicFrame.contentType = ContentType.graphicType;
+graphicFrame.place( File( currentDir().fullName + '/links/tiger.eps' ) );
+graphicFrame.fit(FitOptions.CONTENT_TO_FRAME);

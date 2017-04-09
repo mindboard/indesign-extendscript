@@ -1,3 +1,6 @@
+//
+// insert inline image.
+//
 var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",

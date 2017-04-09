@@ -1,3 +1,6 @@
+//
+// place pdf on page.
+//
 var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",
@@ -25,6 +28,12 @@ var createTextFrame = function(page,params){
             params.right+"mm"] });
 };
 
+var createGraphicFrame = function(page,params){
+    var textFrame = createTextFrame(page, params);
+    textFrame.contentType = ContentType.graphicType;
+    return textFrame;
+};
+
 var currentDir = function(){
     return File($.fileName).parent;
 };
@@ -46,18 +55,17 @@ var doc = createDocument( pageParams );
 
 var page = doc.pages.item(0);
 
-var textFrameParams = {
+var graphicFrameParams = {
     top    : pageParams.marginTop,
     left   : pageParams.marginLeft,
     bottom : (pageParams.pageHeight - pageParams.marginBottom),
     right  : (pageParams.pageWidth  - pageParams.marginRight) };
 
-var textFrame = createTextFrame(page, textFrameParams);
-textFrame.contentType = ContentType.graphicType;
+var graphicFrame = createGraphicFrame(page, graphicFrameParams);
 
 // specify place pdf page number ( It's a point )
 app.pdfPlacePreferences.pageNumber = 2;
-textFrame.place( File( currentDir().fullName + '/links/tigers.pdf' ) );
+graphicFrame.place( File( currentDir().fullName + '/links/tigers.pdf' ) );
 app.pdfPlacePreferences.pageNumber = 1; // 初期値?に戻しておく
 
-textFrame.fit(FitOptions.CONTENT_TO_FRAME);
+graphicFrame.fit(FitOptions.CONTENT_TO_FRAME);
