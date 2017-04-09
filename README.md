@@ -1,7 +1,7 @@
 
 # InDesign Extendscript Examples
 
-All scripts are tested in InDesign CC 2015 on Mac OS X.
+All scripts are tested in InDesign CC 2017 on macOS.
 
 
 ## How to run
