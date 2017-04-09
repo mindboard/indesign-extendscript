@@ -26,6 +26,7 @@ Just open script file (.jsx) in ESTK and run it.
 - ./10 ... layer
 - ./11 ... link
 - ./12 ... textframe
+- ./13 ... create multiple pages document and place pdf on each page.
 
 
 ## LICENSE
