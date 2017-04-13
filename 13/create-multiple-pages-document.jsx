@@ -68,7 +68,7 @@ var graphicFrameParams = {
     bottom : (pageParams.pageHeight - pageParams.marginBottom),
     right  : (pageParams.pageWidth  - pageParams.marginRight) };
 
-var list = ['tiger-green.pdf','tiger-red.pdf','tiger-blue.pdf'];
+var list = 'tiger-green.pdf tiger-red.pdf tiger-blue.pdf'.split(/ /);
 
 for(var i=0; i<list.length; i++){
     var page = null;
