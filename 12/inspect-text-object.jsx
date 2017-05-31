@@ -32,6 +32,9 @@ eachPage( doc, function(page){
                 var text = texts[i];
                 $.writeln( 'text : ' + text );
                 $.writeln( 'text.pointSize : ' + text.pointSize );
+                $.writeln( 'text.leading : ' + text.leading );
+                $.writeln( 'text.fillTint : ' + text.fillTint );
+                $.writeln( 'text.fontStyle : ' + text.fontStyle );
             }
         }
     });
