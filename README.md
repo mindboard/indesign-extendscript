@@ -1,4 +1,3 @@
-
 # InDesign Extendscript Examples
 
 All scripts are tested in InDesign CC 2017 on macOS.
@@ -33,4 +32,3 @@ Just open script file (.jsx) in ESTK and run it.
 
 MIT LICENSE.
 See details in LICENSE file.
-
