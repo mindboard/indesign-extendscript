@@ -106,9 +106,9 @@ var getTablesInTextFrame = function( textFrame ){
     var tableList = [];
     var story = textFrame.parentStory;
     for(var i=0; i<story.characters.length; i++){
-        var chara = story.characters[i];
-        if(chara.tables.length>0){
-            tableList.push( chara.tables[0] );
+        var character = story.characters[i];
+        if(character.tables.length>0){
+            tableList.push( character.tables[0] );
         }
     }
     return tableList;
