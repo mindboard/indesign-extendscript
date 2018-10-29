@@ -1,10 +1,10 @@
 var eachItem = function(myItemList,func){ for(var i=0; i<myItemList.length; i++){ func(myItemList[i]); } };
 
-var save = function( file,text ){
+var save = function( file, text ){
     file.encoding = "UTF-8";
     var handle = file.open("w");
     if( handle ){
-        file.write(json);
+        file.write(text);
         file.close();
     }
 };
