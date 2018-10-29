@@ -18,7 +18,7 @@ Just open script file (.jsx) in ESTK and run it.
 - ./03 ... table
 - ./04 ... image
 - ./05 ... file and directory 
-- ./06 ... json
+- ./06 ... text and json handling
 - ./07 ... DOM / parse document
 - ./08 ... graphics
 - ./09 ... paragraph style
