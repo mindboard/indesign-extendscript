@@ -14,7 +14,7 @@ Just open script file (.jsx) in ESTK and run it.
 
 - ./00 ... utility scripts
 - ./01 ... hello world
-- ./02 ... export document
+- ./02 ... exporting document
 - ./03 ... table
 - ./04 ... image
 - ./05 ... file and directory 
@@ -25,7 +25,8 @@ Just open script file (.jsx) in ESTK and run it.
 - ./10 ... layer
 - ./11 ... link
 - ./12 ... textframe
-- ./13 ... create multiple pages document and place pdf on each page.
+- ./13 ... creating multiple pages document and place pdf on each page.
+- ./14 ... handling conditional text
 
 
 ## LICENSE
