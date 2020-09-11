@@ -11,7 +11,7 @@ var createHelloWorldDocument = function(){
     for( var i=0; i<textFrame.paragraphs.length; i++ ){
         var paragraph = textFrame.paragraphs[i];
         paragraph.pointSize = 36;
-           paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Myriad Hebrew');
+           paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Arial');
     }
 
     return doc;
