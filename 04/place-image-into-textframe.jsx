@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // place image into textframe.
 //

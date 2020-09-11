@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // create a multiple pages document and place pdf on each page.
 //

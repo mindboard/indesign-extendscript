@@ -1,3 +1,5 @@
+//@target InDesign
+
 var createHelloWorldDocument = function(){
     var params = {};
     params.documentPreferences = { pageWidth:"210mm", pageHeight:"297mm", facingPages:false};

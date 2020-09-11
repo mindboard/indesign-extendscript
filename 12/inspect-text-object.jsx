@@ -1,3 +1,5 @@
+//@target InDesign
+
 // 
 // inspection text object.
 //

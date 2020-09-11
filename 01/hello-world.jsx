@@ -1,3 +1,5 @@
+//@target InDesign
+
 var params = {};
 params.documentPreferences = {
     pageWidth   : "210mm",

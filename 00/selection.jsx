@@ -1,3 +1,5 @@
+//@target InDesign
+
 var selection = app.activeDocument.selection;
 
 $.writeln( selection );

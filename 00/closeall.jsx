@@ -1,3 +1,5 @@
+//@target InDesign
+
 while( true ){
     if( app.documents.length<1 ){ break; }
 

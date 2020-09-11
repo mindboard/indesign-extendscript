@@ -1,3 +1,5 @@
+//@target InDesign
+
 var eachPageItem = function(page,func){ for(var i=0; i<page.allPageItems.length; i++){ func(page.allPageItems[i]); } };
 
 var createDocument = function(params){

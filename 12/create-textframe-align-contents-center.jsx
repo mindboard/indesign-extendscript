@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // textFrame style customization example.
 //

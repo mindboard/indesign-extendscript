@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // add new paragraph style and apply it to paragraph.
 //

@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // #1. create textframe
 // #2. create inline textframe and make it border rounded

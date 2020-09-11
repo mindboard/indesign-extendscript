@@ -1,3 +1,5 @@
+//@target InDesign
+
 var doc = app.activeDocument;
 var path = doc.filePath;
 var fullName = doc.fullName;

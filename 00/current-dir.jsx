@@ -1,3 +1,5 @@
+//@target InDesign
+
 var currentDir = function(){
     return File($.fileName).parent;
 };

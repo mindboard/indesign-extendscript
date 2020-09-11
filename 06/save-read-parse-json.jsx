@@ -1,3 +1,5 @@
+//@target InDesign
+
 var eachItem = function(myItemList,func){ for(var i=0; i<myItemList.length; i++){ func(myItemList[i]); } };
 
 var save = function( file, text ){

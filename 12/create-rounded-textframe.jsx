@@ -1,5 +1,4 @@
-//var eachPage = function(doc,func){ for(var i=0; i<doc.pages.length; i++){ func(doc.pages.item(i)); } };
-//var eachPageItem = function(page,func){ for(var i=0; i<page.allPageItems.length; i++){ func(page.allPageItems[i]); } };
+//@target InDesign
 
 var createDocument = function(params){
     params.documentPreferences = {

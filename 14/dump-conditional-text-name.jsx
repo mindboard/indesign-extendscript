@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // Exporting conditional text name in ActiveDocument
 //

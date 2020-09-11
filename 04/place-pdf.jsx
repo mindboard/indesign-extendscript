@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // place pdf on page.
 //

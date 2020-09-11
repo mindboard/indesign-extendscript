@@ -1,3 +1,5 @@
+//@target InDesign
+
 app.scriptPreferences.userInteractionLevel = UserInteractionLevels.NEVER_INTERACT;
 
 var openDocument = function( idmlFile ){ return app.open( idmlFile ); };

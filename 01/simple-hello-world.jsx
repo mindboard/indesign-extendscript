@@ -1,3 +1,5 @@
+//@target InDesign
+
 // add document
 var doc = app.documents.add();
 

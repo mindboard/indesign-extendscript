@@ -1,3 +1,4 @@
+//@target InDesign
 
 var save = function( file, text ){
     file.encoding = "UTF-8";

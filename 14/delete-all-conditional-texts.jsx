@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // Deleting all conditional texts in ActiveDocument.
 //

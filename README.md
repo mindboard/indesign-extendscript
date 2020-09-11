@@ -1,13 +1,13 @@
 # InDesign Extendscript Examples
 
-All scripts are tested in InDesign CC 2017-2019 on macOS.
+All extend scripts are tested with InDesign CC 2020 on macOS Catalina.
 
 
 ## How to run
 
-Use [ESTK](https://www.adobe.com/products/extendscript-toolkit.html).
+Use [Visual Studio Code](https://code.visualstudio.com/) and [ExtendScript Debugger](https://marketplace.visualstudio.com/items?itemName=Adobe.extendscript-debug)
 
-Just open script file (.jsx) in ESTK and run it.
+Just open this project folder in VSCode and run it using ExtendScript Debugger.
 
 
 ## Script Introduction
@@ -26,7 +26,7 @@ Just open script file (.jsx) in ESTK and run it.
 - ./11 ... link
 - ./12 ... textframe
 - ./13 ... creating multiple pages document and place pdf on each page.
-- ./14 ... handling conditional text
+- ./14 ... conditional text
 
 
 ## LICENSE

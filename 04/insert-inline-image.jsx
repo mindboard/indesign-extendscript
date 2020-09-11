@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // insert inline image.
 //

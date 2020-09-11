@@ -1,3 +1,5 @@
+//@target InDesign
+
 //
 // replace color tiger with grayscale tiger.
 //

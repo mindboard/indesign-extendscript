@@ -1,5 +1,8 @@
+//@target InDesign
+
 $.writeln('--- app.fonts ----------------------------------------');
-for( var i=0; i<app.fonts.length; i++ ){
+var len = app.fonts.length;
+for( var i=0; i<len; i++ ){
        $.writeln(app.fonts[i].name);
 }
 
