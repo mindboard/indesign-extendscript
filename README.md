@@ -5,12 +5,12 @@ All extend scripts are tested with InDesign CC 2020 on macOS Catalina.
 
 ## How to run
 
-Use [Visual Studio Code](https://code.visualstudio.com/) and [ExtendScript Debugger](https://marketplace.visualstudio.com/items?itemName=Adobe.extendscript-debug)
+Use [Visual Studio Code](https://code.visualstudio.com/) and [ExtendScript Debugger](https://marketplace.visualstudio.com/items?itemName=Adobe.extendscript-debug).
 
 Just open this project folder in VSCode and run it using ExtendScript Debugger.
 
 
-## Script Introduction
+## TOC
 
 - ./00 ... utility scripts
 - ./01 ... hello world
