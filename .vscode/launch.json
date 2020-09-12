@@ -1,7 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
-		// -- 00 ---
+        // -- 00 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -23,7 +23,7 @@
             "program": "${workspaceFolder}/00/closeall.jsx",
             "stopOnEntry": false
         },
-		// -- 01 ---
+        // -- 01 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -38,7 +38,7 @@
             "program": "${workspaceFolder}/01/simple-hello-world.jsx",
             "stopOnEntry": false
         },
-		// -- 02 ---
+        // -- 02 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -60,7 +60,7 @@
             "program": "${workspaceFolder}/02/export-document-as-png.jsx",
             "stopOnEntry": false
         },
-		// -- 03 ---
+        // -- 03 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -82,7 +82,7 @@
             "program": "${workspaceFolder}/03/create-table-from-price-list-json.jsx",
             "stopOnEntry": false
         },
-		// -- 04 ---
+        // -- 04 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -118,7 +118,7 @@
             "program": "${workspaceFolder}/04/place-pdf.jsx",
             "stopOnEntry": false
         },
-		// -- 05 ---
+        // -- 05 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -140,7 +140,7 @@
             "program": "${workspaceFolder}/05/merge-idml-files.jsx",
             "stopOnEntry": false
         },
-		// -- 06 ---
+        // -- 06 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -155,7 +155,7 @@
             "program": "${workspaceFolder}/06/save-read-parse-text.jsx",
             "stopOnEntry": false
         },
-		// -- 07 ---
+        // -- 07 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -170,7 +170,7 @@
             "program": "${workspaceFolder}/07/traverse-document.jsx",
             "stopOnEntry": false
         },
-		// -- 08 ---
+        // -- 08 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -206,7 +206,7 @@
             "program": "${workspaceFolder}/08/fractal-ginkgo-leaf.jsx",
             "stopOnEntry": false
         },
-		// -- 09 ---
+        // -- 09 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -214,7 +214,7 @@
             "program": "${workspaceFolder}/09/create-paragraph-style.jsx",
             "stopOnEntry": false
         },
-		// -- 10 ---
+        // -- 10 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -222,7 +222,7 @@
             "program": "${workspaceFolder}/10/find-layer-and-add-layer.jsx",
             "stopOnEntry": false
         },
-		// -- 11 ---
+        // -- 11 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -230,7 +230,7 @@
             "program": "${workspaceFolder}/11/check-link-metadata.jsx",
             "stopOnEntry": false
         },
-		// -- 12 ---
+        // -- 12 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
@@ -259,7 +259,7 @@
             "program": "${workspaceFolder}/12/inspect-text-object.jsx",
             "stopOnEntry": false
         },
-		// -- 13 ---
+        // -- 13 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
