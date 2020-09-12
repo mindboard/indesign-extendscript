@@ -5,21 +5,21 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "current-dir.jsx",
+            "name": "00/current-dir.jsx",
             "program": "${workspaceFolder}/00/current-dir.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "dump-some-properties.jsx",
+            "name": "00/dump-some-properties.jsx",
             "program": "${workspaceFolder}/00/dump-some-properties.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "closeall.jsx",
+            "name": "00/closeall.jsx",
             "program": "${workspaceFolder}/00/closeall.jsx",
             "stopOnEntry": false
         },
@@ -27,14 +27,14 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "hello-world.jsx",
+            "name": "01/hello-world.jsx",
             "program": "${workspaceFolder}/01/hello-world.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "simple-hello-world.jsx",
+            "name": "01/simple-hello-world.jsx",
             "program": "${workspaceFolder}/01/simple-hello-world.jsx",
             "stopOnEntry": false
         },
@@ -42,21 +42,21 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "export-document-as-jpg.jsx",
+            "name": "02/export-document-as-jpg.jsx",
             "program": "${workspaceFolder}/02/export-document-as-jpg.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "export-document-as-pdf.jsx",
+            "name": "02/export-document-as-pdf.jsx",
             "program": "${workspaceFolder}/02/export-document-as-pdf.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "export-document-as-png.jsx",
+            "name": "02/export-document-as-png.jsx",
             "program": "${workspaceFolder}/02/export-document-as-png.jsx",
             "stopOnEntry": false
         },
@@ -64,21 +64,21 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "create-table.jsx",
+            "name": "03/create-table.jsx",
             "program": "${workspaceFolder}/03/create-table.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "create-table-and-find-it.jsx",
+            "name": "03/create-table-and-find-it.jsx",
             "program": "${workspaceFolder}/03/create-table-and-find-it.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "create-table-from-price-list-json.jsx",
+            "name": "03/create-table-from-price-list-json.jsx",
             "program": "${workspaceFolder}/03/create-table-from-price-list-json.jsx",
             "stopOnEntry": false
         },
@@ -86,35 +86,35 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "insert-inline-image.jsx",
+            "name": "04/insert-inline-image.jsx",
             "program": "${workspaceFolder}/04/insert-inline-image.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "place-image-in-center-of-page.jsx",
+            "name": "04/place-image-in-center-of-page.jsx",
             "program": "${workspaceFolder}/04/place-image-in-center-of-page.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "place-image-into-rectangle.jsx",
+            "name": "04/place-image-into-rectangle.jsx",
             "program": "${workspaceFolder}/04/place-image-into-rectangle.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "place-image-into-textframe.jsx",
+            "name": "04/place-image-into-textframe.jsx",
             "program": "${workspaceFolder}/04/place-image-into-textframe.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "place-pdf.jsx",
+            "name": "04/place-pdf.jsx",
             "program": "${workspaceFolder}/04/place-pdf.jsx",
             "stopOnEntry": false
         },
@@ -122,21 +122,21 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "listup-idml-files.jsx",
+            "name": "05/listup-idml-files.jsx",
             "program": "${workspaceFolder}/05/listup-idml-files.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "convert-idml-to-indd.jsx",
+            "name": "05/convert-idml-to-indd.jsx",
             "program": "${workspaceFolder}/05/convert-idml-to-indd.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "merge-idml-files.jsx",
+            "name": "05/merge-idml-files.jsx",
             "program": "${workspaceFolder}/05/merge-idml-files.jsx",
             "stopOnEntry": false
         },
@@ -144,14 +144,14 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "save-read-parse-json.jsx",
+            "name": "06/save-read-parse-json.jsx",
             "program": "${workspaceFolder}/06/save-read-parse-json.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "save-read-parse-text.jsx",
+            "name": "06/save-read-parse-text.jsx",
             "program": "${workspaceFolder}/06/save-read-parse-text.jsx",
             "stopOnEntry": false
         },
@@ -159,14 +159,14 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "replace-image.jsx",
+            "name": "07/replace-image.jsx",
             "program": "${workspaceFolder}/07/replace-image.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "traverse-document.jsx",
+            "name": "07/traverse-document.jsx",
             "program": "${workspaceFolder}/07/traverse-document.jsx",
             "stopOnEntry": false
         },
@@ -174,35 +174,35 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "line-with-graphicLine.jsx",
+            "name": "08/line-with-graphicLine.jsx",
             "program": "${workspaceFolder}/08/line-with-graphicLine.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "line-with-polygon.jsx",
+            "name": "08/line-with-polygon.jsx",
             "program": "${workspaceFolder}/08/line-with-polygon.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "beizer.jsx",
+            "name": "08/beizer.jsx",
             "program": "${workspaceFolder}/08/beizer.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "fractal-triangle.jsx",
+            "name": "08/fractal-triangle.jsx",
             "program": "${workspaceFolder}/08/fractal-triangle.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "fractal-ginkgo-leaf.jsx",
+            "name": "08/fractal-ginkgo-leaf.jsx",
             "program": "${workspaceFolder}/08/fractal-ginkgo-leaf.jsx",
             "stopOnEntry": false
         },
@@ -210,7 +210,7 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "create-paragraph-style.jsx",
+            "name": "09/create-paragraph-style.jsx",
             "program": "${workspaceFolder}/09/create-paragraph-style.jsx",
             "stopOnEntry": false
         },
@@ -218,7 +218,7 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "find-layer-and-add-layer.jsx",
+            "name": "10/find-layer-and-add-layer.jsx",
             "program": "${workspaceFolder}/10/find-layer-and-add-layer.jsx",
             "stopOnEntry": false
         },
@@ -226,7 +226,7 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "check-link-metadata.jsx",
+            "name": "11/check-link-metadata.jsx",
             "program": "${workspaceFolder}/11/check-link-metadata.jsx",
             "stopOnEntry": false
         },
@@ -234,28 +234,28 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "create-rounded-textframe.jsx",
+            "name": "12/create-rounded-textframe.jsx",
             "program": "${workspaceFolder}/12/create-rounded-textframe.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "create-textframe-align-contents-center.jsx",
+            "name": "12/create-textframe-align-contents-center.jsx",
             "program": "${workspaceFolder}/12/create-textframe-align-contents-center.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "insert-inline-textframe.jsx",
+            "name": "12/insert-inline-textframe.jsx",
             "program": "${workspaceFolder}/12/insert-inline-textframe.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "inspect-text-object.jsx",
+            "name": "12/inspect-text-object.jsx",
             "program": "${workspaceFolder}/12/inspect-text-object.jsx",
             "stopOnEntry": false
         },
@@ -263,7 +263,7 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "create-multiple-pages-document.jsx",
+            "name": "13/create-multiple-pages-document.jsx",
             "program": "${workspaceFolder}/13/create-multiple-pages-document.jsx",
             "stopOnEntry": false
         }
