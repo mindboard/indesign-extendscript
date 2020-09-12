@@ -9,6 +9,8 @@ Use [Visual Studio Code](https://code.visualstudio.com/) and [ExtendScript Debug
 
 Just open this project folder in VSCode and run it using ExtendScript Debugger.
 
+![demo](https://github.com/mindboard/indesign-extendscript/blob/master/demo.gif)
+
 
 ## TOC
 
