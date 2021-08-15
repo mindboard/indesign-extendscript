@@ -30,6 +30,13 @@
             "program": "${workspaceFolder}/00/console-log.jsx",
             "stopOnEntry": false
         },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "00/namespace.jsx",
+            "program": "${workspaceFolder}/00/namespace.jsx",
+            "stopOnEntry": false
+        },
         // -- 01 ---
         {
             "type": "extendscript-debug",
