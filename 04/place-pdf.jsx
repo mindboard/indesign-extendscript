@@ -65,9 +65,9 @@ var graphicFrameParams = {
 
 var graphicFrame = createGraphicFrame(page, graphicFrameParams);
 
-// specify place pdf page number ( It's a point )
+// specify place pdf target page number:
 app.pdfPlacePreferences.pageNumber = 2;
 graphicFrame.place( File( currentDir().fullName + '/links/tigers.pdf' ) );
-app.pdfPlacePreferences.pageNumber = 1; // 初期値?に戻しておく
+app.pdfPlacePreferences.pageNumber = 1; // reset default.
 
 graphicFrame.fit(FitOptions.CONTENT_TO_FRAME);
