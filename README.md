@@ -1,6 +1,6 @@
 # InDesign Extendscript Examples
 
-All extend scripts are tested with InDesign CC 2020 on macOS Catalina.
+All extend scripts are tested with InDesign CC 2021 on macOS Catalina.
 
 
 ## How to run
