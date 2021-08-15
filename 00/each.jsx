@@ -2,7 +2,7 @@
 
 var eachItem = function(myItemList,func){
     for(var i=0; i<myItemList.length; i++){
-        func(myItemList[i]);
+        func(myItemList[i], i);
     }
 };
 
@@ -14,5 +14,5 @@ for( var i=0; i<list.length; i++ ){
 }
 
 $.writeln('--- test2 ---');
-var myFunc = function(it){ $.writeln( it ); };
+var myFunc = function(item, index){ $.writeln( '- ('+index+') '+item ); };
 eachItem( list, myFunc );
