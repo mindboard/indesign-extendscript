@@ -16,7 +16,7 @@ Just open this project folder in VSCode and run it using ExtendScript Debugger.
 
 - ./00 ... utility scripts
 - ./01 ... hello world
-- ./02 ... exporting document
+- ./02 ... exporting a document
 - ./03 ... table
 - ./04 ... image
 - ./05 ... file and directory 
