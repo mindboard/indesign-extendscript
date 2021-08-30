@@ -27,7 +27,7 @@ Just open this project folder in VSCode and run it using ExtendScript Debugger.
 - ./10 ... layer
 - ./11 ... link
 - ./12 ... textframe
-- ./13 ... creating multiple pages document and place pdf on each page.
+- ./13 ... creating a document that has multiple pages and place pdfs into each page.
 - ./14 ... conditional text
 
 
