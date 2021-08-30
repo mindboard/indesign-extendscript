@@ -62,8 +62,6 @@ var pageParams = {
 
 var doc = createDocument( pageParams );
 
-var page = doc.pages.item(0);
-
 var graphicFrameParams = {
     top    : pageParams.marginTop,
     left   : pageParams.marginLeft,
@@ -76,8 +74,7 @@ for(var i=0; i<list.length; i++){
     var page = null;
     if(i==0){
         page = doc.pages.item(0);
-    }
-    else {
+    } else {
         page = doc.pages.add();
     }
 

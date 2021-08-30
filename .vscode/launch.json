@@ -284,8 +284,8 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "13/create-multiple-pages-document.jsx",
-            "program": "${workspaceFolder}/13/create-multiple-pages-document.jsx",
+            "name": "13/create-a-document-that-has-multiple-pages.jsx",
+            "program": "${workspaceFolder}/13/create-a-document-that-has-multiple-pages.jsx",
             "stopOnEntry": false
         }
     ]
