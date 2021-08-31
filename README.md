@@ -29,6 +29,7 @@ Just open this project folder in VSCode and run it using ExtendScript Debugger.
 - ./12 ... textframe
 - ./13 ... creating a document that has multiple pages and place a pdf into each page.
 - ./14 ... conditional text
+- ./15 ... color, swatch
 
 
 ## LICENSE

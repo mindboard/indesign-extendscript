@@ -288,5 +288,13 @@
             "program": "${workspaceFolder}/13/create-a-document-that-has-multiple-pages.jsx",
             "stopOnEntry": false
         }
+        // -- 15 ---
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "15/print-all-color-names.jsx",
+            "program": "${workspaceFolder}/15/print-all-color-names.jsx",
+            "stopOnEntry": false
+        }
     ]
 }
