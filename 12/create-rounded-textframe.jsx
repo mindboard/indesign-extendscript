@@ -69,4 +69,4 @@ var textFrameParams = {
     right  : (pageParams.marginLeft+40) };
 
 var textFrame = createTextFrameWithCornerRound(page, textFrameParams);
-textFrame.contents = 'Hello Textframe.';
+textFrame.contents = 'Hello, Textframe.';

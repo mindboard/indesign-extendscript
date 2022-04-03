@@ -78,7 +78,7 @@ var textFrameParams = {
     right  : (pageParams.pageWidth  - pageParams.marginRight) };
 
 var textFrame = createTextFrame(page, textFrameParams);
-textFrame.contents = 'Hello inline textframe.';
+textFrame.contents = 'Hello, inline textframe.';
 var insertionPoint = textFrame.insertionPoints[13];
 var inlineTextFrame = createTextFrameWithCornerRound(insertionPoint,{top:0,left:0,bottom:48,right:48});
 inlineTextFrame.strokeWeight = 0.25;
