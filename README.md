@@ -23,7 +23,7 @@ Just open this project folder in VSCode and run it using ExtendScript Debugger.
 - ./06 ... text and json handling
 - ./07 ... DOM / parse document
 - ./08 ... graphics
-- ./09 ... paragraph style
+- ./09 ... character and paragraph style
 - ./10 ... layer
 - ./11 ... link
 - ./12 ... textframe

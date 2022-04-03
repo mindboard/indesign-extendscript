@@ -235,6 +235,13 @@
             "program": "${workspaceFolder}/09/create-hello-world-with-paragraph-style.jsx",
             "stopOnEntry": false
         },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "09/create-hello-world-with-paragraph-and-character-style.jsx",
+            "program": "${workspaceFolder}/09/create-hello-world-with-paragraph-and-character-style.jsx",
+            "stopOnEntry": false
+        },
         // -- 10 ---
         {
             "type": "extendscript-debug",
