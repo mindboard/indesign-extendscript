@@ -231,8 +231,8 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "09/create-paragraph-style.jsx",
-            "program": "${workspaceFolder}/09/create-paragraph-style.jsx",
+            "name": "09/create-hello-world-with-paragraph-style.jsx",
+            "program": "${workspaceFolder}/09/create-hello-world-with-paragraph-style.jsx",
             "stopOnEntry": false
         },
         // -- 10 ---
