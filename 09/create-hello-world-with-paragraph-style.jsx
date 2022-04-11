@@ -5,7 +5,7 @@
 //
 
 var createParagraphStyle = function( doc, params ){
-    var paragraphStyle = doc.paragraphStyles.item( params.name );
+    var paragraphStyle = doc.paragraphStyles.itemByName( params.name );
     if( paragraphStyle!=null ){
         return paragraphStyle;
     }
@@ -34,10 +34,10 @@ doc.cjkGridPreferences.showAllLayoutGrids = false;
 var myParagraphStyle = createParagraphStyle( doc, { name : 'my-paragraph-style' });
 
 // reset page margin
-var page = doc.pages.item(0);
+var page = doc.pages[0];
 
 // add textFrame
 var textFrame = createTextFrame( page );
 
 // apply textFrame myParagraphStyle
-textFrame.texts.item(0).applyParagraphStyle(myParagraphStyle, true);
+textFrame.texts[0].applyParagraphStyle(myParagraphStyle, true);

@@ -5,7 +5,7 @@ var createFontSize = function(q){
 };
 
 var createParagraphStyle = function(doc, params){
-    var paragraphStyle = doc.paragraphStyles.item( params.name );
+    var paragraphStyle = doc.paragraphStyles.itemByName( params.name );
     if( paragraphStyle!=null ){
         return paragraphStyle;
     }
@@ -13,11 +13,11 @@ var createParagraphStyle = function(doc, params){
 };
 
 var getEmptyCharacterStyle = function(doc){
-    return doc.characterStyles.item(0);
+    return doc.characterStyles[0];
 };
 
 var createCharacterStyle = function(doc, params){
-    var characterStyle = doc.characterStyles.item( params.name );
+    var characterStyle = doc.characterStyles.itemByName( params.name );
     if( characterStyle!=null ){
         return characterStyle;
     }
@@ -25,7 +25,7 @@ var createCharacterStyle = function(doc, params){
 };
 
 var getFont = function(fontName){
-    return app.fonts.item(fontName);
+    return app.fonts.itemByName(fontName);
 };
 
 
@@ -71,7 +71,7 @@ var boldCharacterStyle = createCharacterStyle(doc, {
     pointSize: createFontSize(24)
 });
 
-var page = doc.pages.item(0);
+var page = doc.pages[0];//.item(0);
 page.marginPreferences.properties = {
     top    : '0mm',
     left   : '0mm',
