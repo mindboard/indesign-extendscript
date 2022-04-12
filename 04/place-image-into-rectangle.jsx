@@ -4,7 +4,7 @@ var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",
         pageHeight  : params.pageHeight+"mm",
-           facingPages : false};
+        facingPages : false};
 
     var doc = app.documents.add(params);
 
@@ -46,7 +46,7 @@ var pageParams = {
 
 var doc = createDocument( pageParams );
 
-var page = doc.pages.item(0);
+var page = doc.pages[0];
 
 var rectangleParams = {
     top    : pageParams.marginTop,
