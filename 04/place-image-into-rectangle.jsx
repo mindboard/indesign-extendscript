@@ -8,7 +8,7 @@ var createDocument = function(params){
 
     var doc = app.documents.add(params);
 
-    var page = doc.pages.item(0);
+    var page = doc.pages[0];
     page.marginPreferences.properties = {
         top    : params.marginTop+"mm",
         left   : params.marginLeft+"mm",

@@ -7,11 +7,11 @@ var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",
         pageHeight  : params.pageHeight+"mm",
-           facingPages : false};
+        facingPages : false};
 
     var doc = app.documents.add(params);
 
-    var page = doc.pages.item(0);
+    var page = doc.pages[0];
     page.marginPreferences.properties = {
         top    : params.marginTop+"mm",
         left   : params.marginLeft+"mm",
@@ -56,7 +56,7 @@ var pageParams = {
 
 var doc = createDocument( pageParams );
 
-var page = doc.pages.item(0);
+var page = doc.pages[0];
 
 var graphicFrameParams = {
     top    : pageParams.marginTop,
