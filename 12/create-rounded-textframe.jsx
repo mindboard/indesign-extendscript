@@ -4,7 +4,7 @@ var createDocument = function(params){
     params.documentPreferences = {
         pageWidth   : params.pageWidth+"mm",
         pageHeight  : params.pageHeight+"mm",
-           facingPages : false};
+        facingPages : false};
 
     var doc = app.documents.add(params);
     //with(doc.gridPreferences){ documentGridShown=true; }

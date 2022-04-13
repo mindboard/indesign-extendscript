@@ -6,7 +6,7 @@ var createDocument = function(params){
     params.documentPreferences = {
         pageWidth : params.width+"mm",
         pageHeight: params.height+"mm",
-           facingPages:false};
+        facingPages:false};
 
     var doc = app.documents.add(params);
 
