@@ -12,7 +12,7 @@ var createDocument = function(){
     return doc;
 }    
 
-var findLayer = function(doc,layerName){
+var findLayer = function(doc, layerName){
     for(var i=0; i<doc.layers.length; i++){
         var l = doc.layers[i];
         if( l.name===layerName ){

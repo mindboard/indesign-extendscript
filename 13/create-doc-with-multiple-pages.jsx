@@ -4,25 +4,31 @@
 // create a multiple pages document and place pdf on each page.
 //
 
-var createDocument = function(params){
-    params.documentPreferences = {
-        pageWidth   : params.pageWidth+"mm",
-        pageHeight  : params.pageHeight+"mm",
-        facingPages : false};
+var createDocument = function(pageParams){
+    var docParams = {
+        documentPreferences : {
+            pageWidth   : pageParams.pageWidth+"mm",
+            pageHeight  : pageParams.pageHeight+"mm",
+            facingPages : false
+        },
+        cjkGridPreferences : {
+            showAllLayoutGrids : false
+        }
+    };
 
-    var doc = app.documents.add(params);
+    var doc = app.documents.add(docParams);
 
-    var page = doc.pages.item(0);
+    var page = doc.pages[0];
     page.marginPreferences.properties = {
-        top    : params.marginTop+"mm",
-        left   : params.marginLeft+"mm",
-        bottom : params.marginBottom+"mm",
-        right  : params.marginRight+"mm"};
+        top    : pageParams.marginTop+"mm",
+        left   : pageParams.marginLeft+"mm",
+        bottom : pageParams.marginBottom+"mm",
+        right  : pageParams.marginRight+"mm"};
 
     return doc;
 };
 
-var createTextFrame = function(page,params){
+var createTextFrame = function(page, params){
     return page.textFrames.add({
         geometricBounds:[
             params.top+"mm",
@@ -31,7 +37,7 @@ var createTextFrame = function(page,params){
             params.right+"mm"] });
 };
 
-var createGraphicFrame = function(page,params){
+var createGraphicFrame = function(page, params){
     var textFrame = createTextFrame(page, params);
     textFrame.contentType = ContentType.graphicType;
     return textFrame;
@@ -60,7 +66,7 @@ var pageParams = {
     marginBottom: 0,
     marginRight : 0};
 
-var doc = createDocument( pageParams );
+var doc = createDocument(pageParams);
 
 var graphicFrameParams = {
     top    : pageParams.marginTop,

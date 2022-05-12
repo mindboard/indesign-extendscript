@@ -1,24 +1,30 @@
 //@target InDesign
 
-var createDocument = function(params){
-    params.documentPreferences = {
-        pageWidth   : params.pageWidth+"mm",
-        pageHeight  : params.pageHeight+"mm",
-        facingPages : false};
+var createDocument = function(pageParams){
+    var docParams = {
+        documentPreferences : {
+            pageWidth   : pageParams.pageWidth+"mm",
+            pageHeight  : pageParams.pageHeight+"mm",
+            facingPages : false
+        },
+        cjkGridPreferences : {
+            showAllLayoutGrids : false
+        }
+    };
 
-    var doc = app.documents.add(params);
+    var doc = app.documents.add(docParams);
 
     var page = doc.pages[0];
     page.marginPreferences.properties = {
-        top    : params.marginTop+"mm",
-        left   : params.marginLeft+"mm",
-        bottom : params.marginBottom+"mm",
-        right  : params.marginRight+"mm"};
+        top    : pageParams.marginTop+"mm",
+        left   : pageParams.marginLeft+"mm",
+        bottom : pageParams.marginBottom+"mm",
+        right  : pageParams.marginRight+"mm"};
 
     return doc;
 };
 
-var createRectangle = function(page,params){
+var createRectangle = function(page, params){
     return page.rectangles.add({
         geometricBounds:[
             params.top+"mm",
@@ -44,7 +50,7 @@ var pageParams = {
     marginBottom: 10,
     marginRight : 10};
 
-var doc = createDocument( pageParams );
+var doc = createDocument(pageParams);
 
 var page = doc.pages[0];
 

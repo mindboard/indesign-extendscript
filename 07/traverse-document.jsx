@@ -18,10 +18,10 @@ var createDocument = function(){
 
 var doc = createDocument();
 
-eachPage( doc, function(page){
+eachPage(doc, function(page){
     $.writeln( 'page : '+page );
 
-    eachPageItem(page,function(pageItem){
+    eachPageItem(page, function(pageItem){
         var className = pageItem.constructor.name;
         $.writeln( 'pageItem : ' + className );
     });

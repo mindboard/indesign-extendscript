@@ -1,25 +1,30 @@
 //@target InDesign
 
-var createDocument = function(params){
-    params.documentPreferences = {
-        pageWidth   : params.pageWidth+"mm",
-        pageHeight  : params.pageHeight+"mm",
-        facingPages : false};
+var createDocument = function(pageParams){
+    var docParams = {
+        documentPreferences : {
+            pageWidth   : pageParams.pageWidth+"mm",
+            pageHeight  : pageParams.pageHeight+"mm",
+            facingPages : false
+        },
+        cjkGridPreferences : {
+            showAllLayoutGrids : false
+        }
+    };
 
-    var doc = app.documents.add(params);
-    //with(doc.gridPreferences){ documentGridShown=true; }
+    var doc = app.documents.add(docParams);
 
-    var page = doc.pages.item(0);
+    var page = doc.pages[0];
     page.marginPreferences.properties = {
-        top    : params.marginTop+"mm",
-        left   : params.marginLeft+"mm",
-        bottom : params.marginBottom+"mm",
-        right  : params.marginRight+"mm"};
+        top    : pageParams.marginTop+"mm",
+        left   : pageParams.marginLeft+"mm",
+        bottom : pageParams.marginBottom+"mm",
+        right  : pageParams.marginRight+"mm"};
 
     return doc;
 };
 
-var createTextFrame = function(parent,params){
+var createTextFrame = function(parent, params){
     return parent.textFrames.add({
         geometricBounds:[
             params.top+"mm",
@@ -28,7 +33,7 @@ var createTextFrame = function(parent,params){
             params.right+"mm"] });
 };
 
-var createTextFrameWithCornerRound = function(parent,params){
+var createTextFrameWithCornerRound = function(parent, params){
     var tf = createTextFrame(parent,params);
 
     with( tf ){
@@ -59,7 +64,7 @@ var pageParams = {
     marginBottom: 10,
     marginRight : 10};
 
-var doc = createDocument( pageParams );
+var doc = createDocument(pageParams);
 var page = doc.pages.item(0);
 
 var textFrameParams = {
@@ -69,4 +74,4 @@ var textFrameParams = {
     right  : (pageParams.marginLeft+40) };
 
 var textFrame = createTextFrameWithCornerRound(page, textFrameParams);
-textFrame.contents = 'Hello, Textframe.';
+textFrame.contents = 'Hello, TextFrame!';

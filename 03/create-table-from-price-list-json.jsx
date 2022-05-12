@@ -1,24 +1,30 @@
 //@target InDesign
 
-var createDocument = function(params){
-    params.documentPreferences = {
-        pageWidth : params.width+"mm",
-        pageHeight: params.height+"mm",
-        facingPages:false};
+var createDocument = function(pageParams){
+    var docParams = {
+        documentPreferences : {
+            pageWidth   : pageParams.width+"mm",
+            pageHeight  : pageParams.height+"mm",
+            facingPages : false
+        },
+        cjkGridPreferences : {
+            showAllLayoutGrids : false
+        }
+    };
 
-    var doc = app.documents.add(params);
+    var doc = app.documents.add(docParams);
 
-    var page = doc.pages.item(0);
+    var page = doc.pages[0];
     page.marginPreferences.properties = {
-        top    : params.marginTop+"mm",
-        left   : params.marginLeft+"mm",
-        bottom : params.marginBottom+"mm",
-        right  : params.marginRight+"mm"};
+        top    : pageParams.marginTop+"mm",
+        left   : pageParams.marginLeft+"mm",
+        bottom : pageParams.marginBottom+"mm",
+        right  : pageParams.marginRight+"mm"};
 
     return doc;
 };
 
-var createTextFrame = function(page,params){
+var createTextFrame = function(page, params){
     return page.textFrames.add({
         geometricBounds:[
             params.top+"mm",
@@ -27,7 +33,7 @@ var createTextFrame = function(page,params){
             params.right+"mm"] });
 };
 
-var read = function( file ){
+var read = function(file){
     file.encoding = "UTF-8";
     var handle = file.open("r");
     if( handle ){
@@ -38,7 +44,7 @@ var read = function( file ){
     return '';
 };
 
-var toJsonObject = function( jsonString ){
+var toJsonObject = function(jsonString){
     return eval('('+jsonString + ');' );
 };
 
@@ -59,7 +65,7 @@ var pageParams = {
     marginBottom: 10,
     marginRight : 10};
 
-var doc = createDocument( pageParams );
+var doc = createDocument(pageParams);
 
 var page = doc.pages.item(0);
 

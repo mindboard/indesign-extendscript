@@ -2,25 +2,31 @@
 
 var eachPageItem = function(page,func){ for(var i=0; i<page.allPageItems.length; i++){ func(page.allPageItems[i]); } };
 
-var createDocument = function(params){
-    params.documentPreferences = {
-        pageWidth : params.width+"mm",
-        pageHeight: params.height+"mm",
-        facingPages:false};
+var createDocument = function(pageParams){
+    var docParams = {
+        documentPreferences : {
+            pageWidth   : pageParams.width+"mm",
+            pageHeight  : pageParams.height+"mm",
+            facingPages : false
+        },
+        cjkGridPreferences : {
+            showAllLayoutGrids : false
+        }
+    };
 
-    var doc = app.documents.add(params);
+    var doc = app.documents.add(docParams);
 
-    var page = doc.pages.item(0);
+    var page = doc.pages[0];
     page.marginPreferences.properties = {
-        top    : params.marginTop+"mm",
-        left   : params.marginLeft+"mm",
-        bottom : params.marginBottom+"mm",
-        right  : params.marginRight+"mm"};
+        top    : pageParams.marginTop+"mm",
+        left   : pageParams.marginLeft+"mm",
+        bottom : pageParams.marginBottom+"mm",
+        right  : pageParams.marginRight+"mm"};
 
     return doc;
 };
 
-var createTextFrame = function(page,params){
+var createTextFrame = function(page, params){
     return page.textFrames.add({
         geometricBounds:[
             params.top+"mm",
@@ -29,7 +35,7 @@ var createTextFrame = function(page,params){
             params.right+"mm"] });
 };
 
-var createTableInPage = function(page){
+var createTableInPage = function(page, pageParams){
     var textFrameParams = {
         top    : pageParams.marginTop,
         left   : pageParams.marginLeft,
@@ -134,11 +140,11 @@ var doc = createDocument( pageParams );
 var page = doc.pages.item(0);
 
 // 1)
-// create table
-createTableInPage(page);
+// create a table.
+createTableInPage(page, pageParams);
 
 // 2)
-// find it
+// find it.
 var textFrames = getTextFrames(page);
 for(var i=0; i<textFrames.length; i++){
     $.writeln( '- textFrame : ' + textFrames[i] );

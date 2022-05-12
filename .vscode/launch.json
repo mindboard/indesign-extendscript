@@ -107,8 +107,8 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "04/insert-inline-image.jsx",
-            "program": "${workspaceFolder}/04/insert-inline-image.jsx",
+            "name": "04/insert-image-as-inline.jsx",
+            "program": "${workspaceFolder}/04/insert-image-as-inline.jsx",
             "stopOnEntry": false
         },
         {
@@ -128,8 +128,8 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "04/place-image-into-textframe.jsx",
-            "program": "${workspaceFolder}/04/place-image-into-textframe.jsx",
+            "name": "04/place-image-with-graphicframe.jsx",
+            "program": "${workspaceFolder}/04/place-image-with-graphicframe.jsx",
             "stopOnEntry": false
         },
         {
@@ -291,8 +291,8 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "13/create-a-document-that-has-multiple-pages.jsx",
-            "program": "${workspaceFolder}/13/create-a-document-that-has-multiple-pages.jsx",
+            "name": "13/create-doc-with-multiple-pages.jsx",
+            "program": "${workspaceFolder}/13/create-doc-with-multiple-pages.jsx",
             "stopOnEntry": false
         }
         // -- 15 ---
