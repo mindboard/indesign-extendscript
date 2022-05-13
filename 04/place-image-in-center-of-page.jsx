@@ -50,10 +50,11 @@ var rectangleHeight= rectangleWidth
 
 var rectangle = page.rectangles.add({
         geometricBounds:[
-            "0mm",
-            "0mm",
-            rectangleWidth+"mm",
-            rectangleHeight+"mm"] });
+            "0mm", // top
+            "0mm", // left
+            rectangleHeight+"mm", // bottom
+            rectangleWidth+"mm" // right
+        ] });
 
 rectangle.place( File( currentDir().fullName + '/links/tiger.eps' ) );
 rectangle.fit(FitOptions.CONTENT_TO_FRAME);
