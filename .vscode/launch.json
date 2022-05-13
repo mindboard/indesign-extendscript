@@ -63,22 +63,29 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "02/export-a-document-as-jpg.jsx",
-            "program": "${workspaceFolder}/02/export-a-document-as-jpg.jsx",
+            "name": "02/export-doc-as-jpg.jsx",
+            "program": "${workspaceFolder}/02/export-doc-as-jpg.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "02/export-a-document-as-pdf.jsx",
-            "program": "${workspaceFolder}/02/export-a-document-as-pdf.jsx",
+            "name": "02/export-doc-as-pdf.jsx",
+            "program": "${workspaceFolder}/02/export-doc-as-pdf.jsx",
             "stopOnEntry": false
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "02/export-a-document-as-png.jsx",
-            "program": "${workspaceFolder}/02/export-a-document-as-png.jsx",
+            "name": "02/export-doc-as-eps.jsx",
+            "program": "${workspaceFolder}/02/export-doc-as-eps.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "02/export-doc-as-png.jsx",
+            "program": "${workspaceFolder}/02/export-doc-as-png.jsx",
             "stopOnEntry": false
         },
         // -- 03 ---

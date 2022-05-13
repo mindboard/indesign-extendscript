@@ -13,11 +13,23 @@ var createHelloWorldDocument = function(){
     for( var i=0; i<textFrame.paragraphs.length; i++ ){
         var paragraph = textFrame.paragraphs[i];
         paragraph.pointSize = 36;
-           paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Arial');
+        paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Arial');
     }
 
     return doc;
 };
+
+var findPdfPreset = function(aPartOfPresetName){
+    var regex = new RegExp(aPartOfPresetName);
+
+       var myPresets = app.pdfExportPresets.everyItem().name;
+       for(var i=0; i<myPresets.length; i++){
+        if( myPresets[i].match(regex) ){
+            return myPresets[i];
+        }
+    }
+    return null;
+}
 
 var currentDir = function(){
     return File($.fileName).parent;
@@ -30,16 +42,10 @@ var currentDir = function(){
 
 var doc = createHelloWorldDocument();
 
-app.pngExportPreferences.properties = {
-    antiAlias             : true,
-    exportResolution      : 72,
-    pngColorSpace         : PNGColorSpaceEnum.RGB,
-    pngExportRange        : PNGExportRangeEnum.EXPORT_ALL,
-    simulateOverprint     : true,
-    pngQuality            : PNGQualityEnum.MAXIMUM,
-    transparentBackground : false };
-
-var savePngFile = File( currentDir().fullName + '/result.png' );
-doc.exportFile(ExportFormat.PNG_FORMAT, savePngFile);
+var savePdfFile = File(currentDir().fullName + '/result.pdf');
+var pdfPreset = findPdfPreset('X-1a');
+if( pdfPreset!=null ){
+    doc.exportFile(ExportFormat.pdfType, savePdfFile, false, pdfPreset);
+}
 
 doc.close(SaveOptions.no);

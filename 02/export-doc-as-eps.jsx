@@ -13,23 +13,11 @@ var createHelloWorldDocument = function(){
     for( var i=0; i<textFrame.paragraphs.length; i++ ){
         var paragraph = textFrame.paragraphs[i];
         paragraph.pointSize = 36;
-           paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Arial');
+        paragraph.appliedParagraphStyle.appliedFont = app.fonts.item('Arial');
     }
 
     return doc;
 };
-
-var findPdfPreset = function(aPartOfPresetName){
-    var regex = new RegExp(aPartOfPresetName);
-
-       var myPresets = app.pdfExportPresets.everyItem().name;
-       for(var i=0; i<myPresets.length; i++){
-        if( myPresets[i].match(regex) ){
-            return myPresets[i];
-        }
-    }
-    return null;
-}
 
 var currentDir = function(){
     return File($.fileName).parent;
@@ -42,10 +30,17 @@ var currentDir = function(){
 
 var doc = createHelloWorldDocument();
 
-var savePdfFile = File( currentDir().fullName + '/result.pdf' );
-var pdfPreset = findPdfPreset('X-1a');
-if( pdfPreset!=null ){
-    doc.exportFile(ExportFormat.pdfType, savePdfFile, false, pdfPreset );
-}
+app.epsExportPreferences.properties = {
+    epsColor              : EPSColorSpace.CMYK,
+    //epsColor              : EPSColorSpace.GRAY,
+    epsSpreads            : false,
+    fontEmbedding         : FontEmbedding.COMPLETE,
+    //fontEmbedding         : FontEmbedding.NONE,
+    pageRange             : '1',
+    postscriptLevel       : PostScriptLevels.LEVEL_3,
+    preview               : PreviewTypes.TIFF_PREVIEW};
+
+var saveEpsFile = File( currentDir().fullName + '/result.eps' );
+doc.exportFile('eps', saveEpsFile, false);
 
 doc.close(SaveOptions.no);
