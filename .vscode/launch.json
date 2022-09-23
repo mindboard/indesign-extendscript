@@ -1,314 +1,299 @@
 {
-    "version": "1.0.0",
+    "version": "0.2.0",
     "configurations": [
-        // -- 00 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "00/current-dir.jsx",
-            "program": "${workspaceFolder}/00/current-dir.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/00/current-dir.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "00/dump-some-properties.jsx",
-            "program": "${workspaceFolder}/00/dump-some-properties.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/00/dump-some-properties.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "00/closeall.jsx",
-            "program": "${workspaceFolder}/00/closeall.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/00/closeall.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "00/each.jsx",
-            "program": "${workspaceFolder}/00/each.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/00/each.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "00/console-log.jsx",
-            "program": "${workspaceFolder}/00/console-log.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/00/console-log.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "00/namespace.jsx",
-            "program": "${workspaceFolder}/00/namespace.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/00/namespace.jsx",
+            "engineName": "main"
         },
-        // -- 01 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "01/hello-world.jsx",
-            "program": "${workspaceFolder}/01/hello-world.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/01/hello-world.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "01/simple-hello-world.jsx",
-            "program": "${workspaceFolder}/01/simple-hello-world.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/01/simple-hello-world.jsx",
+            "engineName": "main"
         },
-        // -- 02 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "02/export-doc-as-jpg.jsx",
-            "program": "${workspaceFolder}/02/export-doc-as-jpg.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/02/export-doc-as-jpg.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "02/export-doc-as-pdf.jsx",
-            "program": "${workspaceFolder}/02/export-doc-as-pdf.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/02/export-doc-as-pdf.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "02/export-doc-as-eps.jsx",
-            "program": "${workspaceFolder}/02/export-doc-as-eps.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/02/export-doc-as-eps.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "02/export-doc-as-png.jsx",
-            "program": "${workspaceFolder}/02/export-doc-as-png.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/02/export-doc-as-png.jsx",
+            "engineName": "main"
         },
-        // -- 03 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "03/create-table.jsx",
-            "program": "${workspaceFolder}/03/create-table.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/03/create-table.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "03/create-table-and-find-it.jsx",
-            "program": "${workspaceFolder}/03/create-table-and-find-it.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/03/create-table-and-find-it.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "03/create-table-from-price-list-json.jsx",
-            "program": "${workspaceFolder}/03/create-table-from-price-list-json.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/03/create-table-from-price-list-json.jsx",
+            "engineName": "main"
         },
-        // -- 04 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "04/insert-image-as-inline.jsx",
-            "program": "${workspaceFolder}/04/insert-image-as-inline.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/04/insert-image-as-inline.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "04/place-image-in-center-of-page.jsx",
-            "program": "${workspaceFolder}/04/place-image-in-center-of-page.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/04/place-image-in-center-of-page.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "04/place-image-into-rectangle.jsx",
-            "program": "${workspaceFolder}/04/place-image-into-rectangle.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/04/place-image-into-rectangle.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "04/place-image-with-graphicframe.jsx",
-            "program": "${workspaceFolder}/04/place-image-with-graphicframe.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/04/place-image-with-graphicframe.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "04/place-pdf.jsx",
-            "program": "${workspaceFolder}/04/place-pdf.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/04/place-pdf.jsx",
+            "engineName": "main"
         },
-        // -- 05 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "05/listup-idml-files.jsx",
-            "program": "${workspaceFolder}/05/listup-idml-files.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/05/listup-idml-files.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "05/convert-idml-to-indd.jsx",
-            "program": "${workspaceFolder}/05/convert-idml-to-indd.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/05/convert-idml-to-indd.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "05/merge-idml-files.jsx",
-            "program": "${workspaceFolder}/05/merge-idml-files.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/05/merge-idml-files.jsx",
+            "engineName": "main"
         },
-        // -- 06 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "06/save-read-parse-json.jsx",
-            "program": "${workspaceFolder}/06/save-read-parse-json.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/06/save-read-parse-json.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "06/save-read-parse-text.jsx",
-            "program": "${workspaceFolder}/06/save-read-parse-text.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/06/save-read-parse-text.jsx",
+            "engineName": "main"
         },
-        // -- 07 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "07/replace-image.jsx",
-            "program": "${workspaceFolder}/07/replace-image.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/07/replace-image.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "07/traverse-document.jsx",
-            "program": "${workspaceFolder}/07/traverse-document.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/07/traverse-document.jsx",
+            "engineName": "main"
         },
-        // -- 08 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "08/line-with-graphicLine.jsx",
-            "program": "${workspaceFolder}/08/line-with-graphicLine.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/08/line-with-graphicLine.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "08/line-with-polygon.jsx",
-            "program": "${workspaceFolder}/08/line-with-polygon.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/08/line-with-polygon.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "08/beizer.jsx",
-            "program": "${workspaceFolder}/08/beizer.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/08/beizer.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "08/fractal-triangle.jsx",
-            "program": "${workspaceFolder}/08/fractal-triangle.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/08/fractal-triangle.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "08/fractal-ginkgo-leaf.jsx",
-            "program": "${workspaceFolder}/08/fractal-ginkgo-leaf.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/08/fractal-ginkgo-leaf.jsx",
+            "engineName": "main"
         },
-        // -- 09 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "09/create-hello-world-with-paragraph-style.jsx",
-            "program": "${workspaceFolder}/09/create-hello-world-with-paragraph-style.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/09/create-hello-world-with-paragraph-style.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "09/create-hello-world-with-paragraph-and-character-style.jsx",
-            "program": "${workspaceFolder}/09/create-hello-world-with-paragraph-and-character-style.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/09/create-hello-world-with-paragraph-and-character-style.jsx",
+            "engineName": "main"
         },
-        // -- 10 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "10/find-layer-and-add-layer.jsx",
-            "program": "${workspaceFolder}/10/find-layer-and-add-layer.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/10/find-layer-and-add-layer.jsx",
+            "engineName": "main"
         },
-        // -- 11 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "11/check-link-metadata.jsx",
-            "program": "${workspaceFolder}/11/check-link-metadata.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/11/check-link-metadata.jsx",
+            "engineName": "main"
         },
-        // -- 12 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "12/create-rounded-textframe.jsx",
-            "program": "${workspaceFolder}/12/create-rounded-textframe.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/12/create-rounded-textframe.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "12/create-textframe-align-contents-center.jsx",
-            "program": "${workspaceFolder}/12/create-textframe-align-contents-center.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/12/create-textframe-align-contents-center.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "12/insert-inline-textframe.jsx",
-            "program": "${workspaceFolder}/12/insert-inline-textframe.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/12/insert-inline-textframe.jsx",
+            "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "12/inspect-text-object.jsx",
-            "program": "${workspaceFolder}/12/inspect-text-object.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/12/inspect-text-object.jsx",
+            "engineName": "main"
         },
-        // -- 13 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "13/create-doc-with-multiple-pages.jsx",
-            "program": "${workspaceFolder}/13/create-doc-with-multiple-pages.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/13/create-doc-with-multiple-pages.jsx",
+            "engineName": "main"
         }
-        // -- 15 ---
         {
             "type": "extendscript-debug",
             "request": "launch",
             "name": "15/print-all-color-names.jsx",
-            "program": "${workspaceFolder}/15/print-all-color-names.jsx",
-            "stopOnEntry": false
+            "script": "${workspaceFolder}/15/print-all-color-names.jsx",
+            "engineName": "main"
         }
     ]
 }
