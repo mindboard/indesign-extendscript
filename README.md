@@ -1,16 +1,21 @@
 # InDesign Extendscript Examples
 
-All extend scripts are tested with InDesign 2022 on macOS.
+All extend scripts are tested with InDesign 2026 on macOS.
 
 
 ## How to run
 
-Use [Visual Studio Code](https://code.visualstudio.com/) and [ExtendScript Debugger v2.0.3](https://marketplace.visualstudio.com/items?itemName=Adobe.extendscript-debug).
+Use [Visual Studio Code](https://code.visualstudio.com/) and [ExtendScript Debugger v2.1.0](https://marketplace.visualstudio.com/items?itemName=Adobe.extendscript-debug).
 
 
 Just open this project folder in VSCode and run it using ExtendScript Debugger.
 
 ![demo](https://github.com/mindboard/indesign-extendscript/blob/master/demo.gif)
+
+
+## Change Target InDesign Version
+
+If you want to run another InDesign Version, edit the .vscode/launch.json and change targetSpecifier value.
 
 
 ## TOC

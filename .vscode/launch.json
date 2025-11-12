@@ -6,6 +6,7 @@
             "request": "launch",
             "name": "00/current-dir.jsx",
             "script": "${workspaceFolder}/00/current-dir.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -13,6 +14,7 @@
             "request": "launch",
             "name": "00/dump-some-properties.jsx",
             "script": "${workspaceFolder}/00/dump-some-properties.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -20,6 +22,7 @@
             "request": "launch",
             "name": "00/closeall.jsx",
             "script": "${workspaceFolder}/00/closeall.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -27,6 +30,7 @@
             "request": "launch",
             "name": "00/each.jsx",
             "script": "${workspaceFolder}/00/each.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -34,6 +38,7 @@
             "request": "launch",
             "name": "00/console-log.jsx",
             "script": "${workspaceFolder}/00/console-log.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -41,6 +46,7 @@
             "request": "launch",
             "name": "00/namespace.jsx",
             "script": "${workspaceFolder}/00/namespace.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -48,6 +54,7 @@
             "request": "launch",
             "name": "01/hello-world.jsx",
             "script": "${workspaceFolder}/01/hello-world.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -55,6 +62,7 @@
             "request": "launch",
             "name": "01/simple-hello-world.jsx",
             "script": "${workspaceFolder}/01/simple-hello-world.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -62,6 +70,7 @@
             "request": "launch",
             "name": "02/export-doc-as-jpg.jsx",
             "script": "${workspaceFolder}/02/export-doc-as-jpg.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -69,6 +78,7 @@
             "request": "launch",
             "name": "02/export-doc-as-pdf.jsx",
             "script": "${workspaceFolder}/02/export-doc-as-pdf.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -76,6 +86,7 @@
             "request": "launch",
             "name": "02/export-doc-as-eps.jsx",
             "script": "${workspaceFolder}/02/export-doc-as-eps.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -83,6 +94,7 @@
             "request": "launch",
             "name": "02/export-doc-as-png.jsx",
             "script": "${workspaceFolder}/02/export-doc-as-png.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -90,6 +102,7 @@
             "request": "launch",
             "name": "03/create-table.jsx",
             "script": "${workspaceFolder}/03/create-table.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -97,6 +110,7 @@
             "request": "launch",
             "name": "03/create-table-and-find-it.jsx",
             "script": "${workspaceFolder}/03/create-table-and-find-it.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -104,6 +118,7 @@
             "request": "launch",
             "name": "03/create-table-from-price-list-json.jsx",
             "script": "${workspaceFolder}/03/create-table-from-price-list-json.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -111,6 +126,7 @@
             "request": "launch",
             "name": "04/insert-image-as-inline.jsx",
             "script": "${workspaceFolder}/04/insert-image-as-inline.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -118,6 +134,7 @@
             "request": "launch",
             "name": "04/place-image-in-center-of-page.jsx",
             "script": "${workspaceFolder}/04/place-image-in-center-of-page.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -125,6 +142,7 @@
             "request": "launch",
             "name": "04/place-image-into-rectangle.jsx",
             "script": "${workspaceFolder}/04/place-image-into-rectangle.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -132,6 +150,7 @@
             "request": "launch",
             "name": "04/place-image-with-graphicframe.jsx",
             "script": "${workspaceFolder}/04/place-image-with-graphicframe.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -139,6 +158,7 @@
             "request": "launch",
             "name": "04/place-pdf.jsx",
             "script": "${workspaceFolder}/04/place-pdf.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -146,6 +166,7 @@
             "request": "launch",
             "name": "05/listup-idml-files.jsx",
             "script": "${workspaceFolder}/05/listup-idml-files.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -153,6 +174,7 @@
             "request": "launch",
             "name": "05/convert-idml-to-indd.jsx",
             "script": "${workspaceFolder}/05/convert-idml-to-indd.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -160,6 +182,7 @@
             "request": "launch",
             "name": "05/merge-idml-files.jsx",
             "script": "${workspaceFolder}/05/merge-idml-files.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -167,6 +190,7 @@
             "request": "launch",
             "name": "06/save-read-parse-json.jsx",
             "script": "${workspaceFolder}/06/save-read-parse-json.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -174,6 +198,7 @@
             "request": "launch",
             "name": "06/save-read-parse-text.jsx",
             "script": "${workspaceFolder}/06/save-read-parse-text.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -181,6 +206,7 @@
             "request": "launch",
             "name": "07/replace-image.jsx",
             "script": "${workspaceFolder}/07/replace-image.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -188,6 +214,7 @@
             "request": "launch",
             "name": "07/traverse-document.jsx",
             "script": "${workspaceFolder}/07/traverse-document.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -195,6 +222,7 @@
             "request": "launch",
             "name": "08/line-with-graphicLine.jsx",
             "script": "${workspaceFolder}/08/line-with-graphicLine.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -202,6 +230,7 @@
             "request": "launch",
             "name": "08/line-with-polygon.jsx",
             "script": "${workspaceFolder}/08/line-with-polygon.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -209,6 +238,7 @@
             "request": "launch",
             "name": "08/beizer.jsx",
             "script": "${workspaceFolder}/08/beizer.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -216,6 +246,7 @@
             "request": "launch",
             "name": "08/fractal-triangle.jsx",
             "script": "${workspaceFolder}/08/fractal-triangle.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -223,6 +254,7 @@
             "request": "launch",
             "name": "08/fractal-ginkgo-leaf.jsx",
             "script": "${workspaceFolder}/08/fractal-ginkgo-leaf.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -230,6 +262,7 @@
             "request": "launch",
             "name": "09/create-hello-world-with-paragraph-style.jsx",
             "script": "${workspaceFolder}/09/create-hello-world-with-paragraph-style.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -237,6 +270,7 @@
             "request": "launch",
             "name": "09/create-hello-world-with-paragraph-and-character-style.jsx",
             "script": "${workspaceFolder}/09/create-hello-world-with-paragraph-and-character-style.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -244,6 +278,7 @@
             "request": "launch",
             "name": "10/find-layer-and-add-layer.jsx",
             "script": "${workspaceFolder}/10/find-layer-and-add-layer.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -251,6 +286,7 @@
             "request": "launch",
             "name": "11/check-link-metadata.jsx",
             "script": "${workspaceFolder}/11/check-link-metadata.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -258,6 +294,7 @@
             "request": "launch",
             "name": "12/create-rounded-textframe.jsx",
             "script": "${workspaceFolder}/12/create-rounded-textframe.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -265,6 +302,7 @@
             "request": "launch",
             "name": "12/create-textframe-align-contents-center.jsx",
             "script": "${workspaceFolder}/12/create-textframe-align-contents-center.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -272,6 +310,7 @@
             "request": "launch",
             "name": "12/insert-inline-textframe.jsx",
             "script": "${workspaceFolder}/12/insert-inline-textframe.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -279,6 +318,7 @@
             "request": "launch",
             "name": "12/inspect-text-object.jsx",
             "script": "${workspaceFolder}/12/inspect-text-object.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -286,6 +326,7 @@
             "request": "launch",
             "name": "13/create-doc-with-multiple-pages.jsx",
             "script": "${workspaceFolder}/13/create-doc-with-multiple-pages.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
@@ -293,6 +334,7 @@
             "request": "launch",
             "name": "15/print-all-color-names.jsx",
             "script": "${workspaceFolder}/15/print-all-color-names.jsx",
+            "targetSpecifier": "indesign-21",
             "engineName": "main"
         }
     ]
