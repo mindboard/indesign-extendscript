@@ -336,6 +336,14 @@
             "script": "${workspaceFolder}/15/print-all-color-names.jsx",
             "targetSpecifier": "indesign-21",
             "engineName": "main"
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "15/create-swatch.jsx",
+            "script": "${workspaceFolder}/15/create-swatch.jsx",
+            "targetSpecifier": "indesign-21",
+            "engineName": "main"
         }
     ]
 }
