@@ -4,8 +4,8 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "00/current-dir.jsx",
-            "script": "${workspaceFolder}/00/current-dir.jsx",
+            "name": "00/get-current-dir.jsx",
+            "script": "${workspaceFolder}/00/get-current-dir.jsx",
             "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
@@ -52,16 +52,16 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "01/hello-world.jsx",
-            "script": "${workspaceFolder}/01/hello-world.jsx",
+            "name": "01/create-document-with-textframe.jsx",
+            "script": "${workspaceFolder}/01/create-document-with-textframe.jsx",
             "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "01/simple-hello-world.jsx",
-            "script": "${workspaceFolder}/01/simple-hello-world.jsx",
+            "name": "01/create-document-with-textframe-simple.jsx",
+            "script": "${workspaceFolder}/01/create-document-with-textframe-simple.jsx",
             "targetSpecifier": "indesign-21",
             "engineName": "main"
         },
