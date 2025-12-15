@@ -37,8 +37,3 @@ If you want to run another InDesign Version, edit the .vscode/launch.json and ch
 - ./14 ... conditional text
 - ./15 ... color, swatch
 
-
-## LICENSE
-
-MIT LICENSE.
-See details in LICENSE file.
